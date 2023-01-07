@@ -1,0 +1,203 @@
+.navbar{
+    /* width: 100%; */
+    height: 40vh;
+    background: rgb(251,63,117);
+    background: linear-gradient(90deg, rgba(251,63,117,1) 0%, rgba(70,144,252,1) 100%);
+    
+    
+
+}
+.form{
+    margin-left: 25px;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.form div{
+    width: 54%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: white;
+    border-radius: 22px;
+
+}
+.label{
+    color: whitesmoke;
+   
+}
+.label h1{
+    font-size: 48px;
+    font-weight: 500;
+    
+
+}
+.label h3{
+    font-size: 25px;
+    font-weight: normal;
+}
+.input{ 
+     width: 80%;
+     height: 94%;
+     border:none;
+     background-color: white;
+     border-radius: 22px;
+     font-size: large;
+     padding-left:15px ;
+     
+
+
+  
+}
+.input:focus{
+    outline: none;
+}
+.button{
+    color: rgb(101, 48, 48)   ;
+    width: 100px;
+    height: 100%;
+    font-size: 15px;
+    border-radius: 22px;
+    border:none;
+    
+    align-self: flex-end;
+    /* background: linear-gradient(to top, #9be15d 0%, #00e3ae 100%); */
+    background: linear-gradient(109.6deg, rgb(253, 199, 141) 11.3%, rgb(249, 143, 253) 100.2%);
+
+      
+}
+.button:hover{
+    /* background: linear-gradient(91.9deg, rgb(132, 150, 149) 4.4%, rgb(105, 205, 195) 89%); */
+    background: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+}
+
+.card-list{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin: auto;
+    background: rgb(251,63,117);
+background: linear-gradient(90deg, rgba(251,63,117,1) 0%, rgba(70,144,252,1) 100%);
+    
+}
+.movie-card{
+
+    height: 500px;
+    width: 1000px;
+    
+    margin: 50px ;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 50px;
+    box-shadow: 0px 0px 31px rgba(44, 58, 114, 0.5);
+    background-color: #1E1E1E;
+
+    /* background: linear-gradient(135deg, #42d392, #647eff) */
+}
+.movie-card-container-one{
+    margin: auto;
+    width: 45%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly   ;
+    align-items: center;
+}
+.movie-card-img{
+    box-shadow: 0px 0px 31px rgba(44, 58, 114, 0.5);
+    border-radius: 10px;
+}
+.movie-card-contener{
+
+
+
+    height: 20%;
+    width: 100%;
+    text-align: center;
+   
+}
+.movie-card-title{
+    width: 100%;
+
+    font-size: 20px;
+    margin: 5px;
+
+   
+    color: #405de0;
+    background-image: -webkit-linear-gradient(0deg, #405de0 0%, #6fc785 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    /* white-space: nowrap; */
+        /* overflow: hidden; */
+        /* text-overflow: clip;
+   */
+  
+   
+    
+}
+.movie-release-date{
+    margin: 5px;    
+
+   
+    color: #405de0;
+    background-image: -webkit-linear-gradient(0deg, #405de0 0%, #6fc785 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  
+  
+  
+}
+.movie-card-ratings{
+    margin: 5px;
+
+    color: #405de0;
+    background-image: -webkit-linear-gradient(0deg, #405de0 0%, #6fc785 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+.movie-card-description{
+    
+
+    color: #405de0;
+    background-image: -webkit-linear-gradient(0deg, #405de0 0%, #6fc785 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    
+  
+   
+}
+
+.movie-card-container-two{
+    margin: auto;
+    width: 45%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
